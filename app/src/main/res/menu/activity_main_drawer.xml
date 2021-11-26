@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_menu1"
+            android:icon="@drawable/location_icon"
+            android:title="My Location" />
+    </group>
+
+    <item android:title="Buildings">
+        <menu>
+            <item
+                android:id="@+id/nav_menu2"
+                android:icon="@drawable/buildings_icon"
+                android:title="Woodward Hall" />
+            <item
+                android:id="@+id/nav_menu3"
+                android:icon="@drawable/ic_menu_share"
+                android:title="College of Health and Human Services" />
+            <item
+                android:id="@+id/nav_menu4"
+                android:icon="@drawable/ic_menu_send"
+                android:title="College of Education" />
+        </menu>
+    </item>
+
+    <item android:title="Information">
+        <menu>
+            <item
+                android:id="@+id/nav_menu5"
+                android:icon="@drawable/aboutus_icon"
+                android:title="About Us" />
+        </menu>
+    </item>
+
+</menu>
